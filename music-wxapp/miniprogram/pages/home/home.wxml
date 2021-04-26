@@ -1,0 +1,16 @@
+<!--pages/playlist/playlist.wxml-->
+
+<view>
+  <swiper indicator-dots autoplay>
+  <block wx:for="{{bannerList}}" wx:key="index">
+    <swiper-item>
+      <image class="banner-img" src="{{item.fileid}}" mode="scaleToFill"></image>
+    </swiper-item>
+  </block>
+</swiper>
+  <view class="playlist">
+    <block  wx:for="{{playList}}" wx:key="_id">
+      <m-playlist-item playitem="{{item}}"></m-playlist-item>
+    </block>
+  </view>
+</view>

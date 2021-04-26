@@ -1,0 +1,14 @@
+/* pages/playlist/playlist.wxss */
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+}
+
+.playlist {
+  padding: 30rpx 10rpx 20rpx 10rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

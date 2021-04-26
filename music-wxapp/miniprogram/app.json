@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/blog/blog",
+    "pages/profile/profile",
+    "pages/profile-playhistory/profile-playhistory",
+    "pages/profile-bloghistory/profile-bloghistory",
+    "pages/songlist/songlist",
+    "pages/player/player",
+    "pages/blog-edit/blog-edit",
+    "pages/blog-detail/blog-detail"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff410f",
+    "navigationBarTitleText": "音乐",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#ff410f",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "iconPath": "./images/icon/music-icon.png",
+      "selectedIconPath": "./images/icon/music-active-icon.png",
+      "text": "音乐"
+    }, {
+      "pagePath": "pages/blog/blog",
+      "iconPath": "./images/icon/hot-icon.png",
+      "selectedIconPath": "./images/icon/hot-active-icon.png",
+      "text": "发现"
+    }, {
+      "pagePath": "pages/profile/profile",
+      "iconPath": "./images/icon/mine-icon.png",
+      "selectedIconPath": "./images/icon/mine-active-icon.png",
+      "text": "我的"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "requiredBackgroundModes": ["audio", "location"]
+}
